@@ -4,4 +4,4 @@ Projeto desenvolvido para a disciplina de Desenvolvimento de Software.
 O objetivo é converter unidades como Metros, Quilômetros e Milhas.
 
 ## Integrantes
-- Seu Nome Completo (SeuUsuarioGitHub)
+- JONAS MIKEA
