@@ -7,4 +7,11 @@ function converter() {
         alert('Digite um valor!');
         return;
     }
+    const fatores = {
+        metro: 1,
+        quilometro: 1000,
+        milha: 1609.34
+    };
+    
+    const valor = parseFloat(valorInput);
 }
