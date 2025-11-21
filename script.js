@@ -13,5 +13,13 @@ function converter() {
         milha: 1609.34
     };
     
+
     const valor = parseFloat(valorInput);
+
+    // Converte origem para metros, depois metros para destino
+    const metros = valor * fatores[unidadeOrigem];
+    const resultadoFinal = metros / fatores[unidadeDestino];
+
+    document.getElementById('resultado').innerText = resultadoFinal.toFixed(4);
+
 }
